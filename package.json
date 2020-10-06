@@ -1,0 +1,26 @@
+{
+  "name": "kronos",
+  "version": "1.0.0",
+  "description": "Powered by time",
+  "main": "app.js",
+  "repository": "git@github.com:mauricio-chavez/kronos.git",
+  "author": "Mauricio Chávez Olea <mauriciochavezolea@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node app",
+    "start:dev": "DEBUG=app nodemon app"
+  }
+}
