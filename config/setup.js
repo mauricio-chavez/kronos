@@ -1,4 +1,3 @@
-const { log } = require('debug');
 const base = require('./environments/base.env');
 const dev = require('./environments/dev.env');
 const prod = require('./environments/prod.env');

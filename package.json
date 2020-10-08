@@ -2,7 +2,7 @@
   "name": "kronos",
   "version": "1.0.0",
   "description": "Powered by time",
-  "main": "app.js",
+  "main": "runtimes/function.js",
   "repository": "git@github.com:mauricio-chavez/kronos.git",
   "author": "Mauricio Chávez Olea <mauriciochavezolea@gmail.com>",
   "license": "MIT",
@@ -20,7 +20,7 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "start": "node app",
-    "start:dev": "DEBUG=app nodemon app"
+    "start": "DEBUG=app nodemon runtimes/dev",
+    "deploy": "gcloud functions deploy app --runtime nodejs10 --trigger-http --allow-unauthenticated"
   }
 }

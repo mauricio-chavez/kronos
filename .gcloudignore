@@ -1,0 +1,12 @@
+# Git files
+.gcloudignore
+.git
+.gitignore
+
+# Node
+node_modules
+#!include:.gitignore
+
+# Miscellaneous
+.vscode/
+.DS_Store

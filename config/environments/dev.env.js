@@ -1,8 +1,7 @@
-const cors = require('cors');
-const morgan = require('morgan');
-const dotenv = require('dotenv');
-
 module.exports = function (app) {
+  const cors = require('cors');
+  const morgan = require('morgan');
+  const dotenv = require('dotenv');
   // Environment variables
   dotenv.config();
 

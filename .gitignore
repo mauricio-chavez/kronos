@@ -115,6 +115,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# Firebase
+.firebaserc
+
 # Miscellaneous
 .vscode/
 .DS_Store
